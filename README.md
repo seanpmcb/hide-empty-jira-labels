@@ -1,3 +1,3 @@
-Turn google meetings into JIRA worklogs
+Remove the empty labels from JIRA boards
 ===========
-A chrome extension that enables you to create a JIRA worklog for the meetings on your google calendar
+A chrome extension that hides the word "None" when there is no label on that JIRA card
