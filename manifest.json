@@ -1,0 +1,18 @@
+{
+   "description": "Hide empty labels on JIRA boards.",
+   "icons": {
+      "128": "icons/icon-128.png",
+      "16": "icons/icon-16.png",
+      "48": "icons/icon-48.png"
+   },
+   "manifest_version": 2,
+   "name": "Hide Empty Labels on JIRA Boards",
+   "content_scripts": [
+     {
+       "matches": ["https://*.atlassian.net/secure/RapidBoard.jspa*"],
+       "js": ["jquery-2.1.1.min.js", "hide-labels.js"]
+     }
+   ],
+   "short_name": "Hide Labels",
+   "version": "0.0.1"
+}
