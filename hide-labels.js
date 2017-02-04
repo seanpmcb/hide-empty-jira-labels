@@ -1,5 +1,4 @@
-setTimeout(function() {
-  $('.ghx-extra-field-content').filter(function() {
-      return $(this).text() === "None";
-  }).css("display", "none");
-}, 1000) //give the page a second to load the cards
+var style = document.createElement('style')
+style.type = 'text/css'
+style.innerHTML = '.ghx-issue .ghx-extra-fields .ghx-fa {display: none;}'
+document.getElementsByTagName('head')[0].appendChild(style)
