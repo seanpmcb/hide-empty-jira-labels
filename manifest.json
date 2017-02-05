@@ -10,10 +10,10 @@
    "content_scripts": [
      {
        "matches": ["https://*.atlassian.net/secure/RapidBoard.jspa*"],
-       "js": ["jquery-2.1.1.min.js", "inject.js"]
+       "js": ["hide-labels.js"]
      }
    ],
    "web_accessible_resources": ["hide-labels.js"],
    "short_name": "Hide Labels",
-   "version": "1.0.0"
+   "version": "1.0.1"
 }
