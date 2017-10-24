@@ -15,5 +15,5 @@
    ],
    "web_accessible_resources": ["hide-labels.js"],
    "short_name": "Hide Labels",
-   "version": "1.0.1"
+   "version": "1.1.0"
 }
